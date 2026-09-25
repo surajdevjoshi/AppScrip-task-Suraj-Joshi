@@ -24,84 +24,96 @@ export default async function Home() {
       {
         id: 1,
         title: "Classic White T-Shirt",
-        image: "https://picsum.photos/seed/product1/600/600",
+        image:
+          "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=600&q=80",
         description: "Classic everyday white t-shirt.",
         price: 29.99,
       },
       {
         id: 2,
         title: "Premium Casual Shirt",
-        image: "https://picsum.photos/seed/product2/600/600",
+        image:
+          "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
         description: "Comfortable casual shirt.",
         price: 39.99,
       },
       {
         id: 3,
         title: "Classic Denim Jacket",
-        image: "https://picsum.photos/seed/product3/600/600",
+        image:
+          "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80",
         description: "Modern denim jacket.",
         price: 59.99,
       },
       {
         id: 4,
         title: "Elegant Black Dress",
-        image: "https://picsum.photos/seed/product4/600/600",
+        image:
+          "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=600&q=80",
         description: "Elegant black dress.",
         price: 69.99,
       },
       {
         id: 5,
         title: "Casual Sneakers",
-        image: "https://picsum.photos/seed/product5/600/600",
+        image:
+          "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80",
         description: "Comfortable everyday sneakers.",
         price: 49.99,
       },
       {
         id: 6,
         title: "Leather Backpack",
-        image: "https://picsum.photos/seed/product6/600/600",
+        image:
+          "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80",
         description: "Minimal leather backpack.",
         price: 79.99,
       },
       {
         id: 7,
         title: "Minimal Wrist Watch",
-        image: "https://picsum.photos/seed/product7/600/600",
+        image:
+          "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80",
         description: "Minimal everyday wrist watch.",
         price: 89.99,
       },
       {
         id: 8,
         title: "Classic Sunglasses",
-        image: "https://picsum.photos/seed/product8/600/600",
+        image:
+          "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=600&q=80",
         description: "Classic frame sunglasses.",
         price: 34.99,
       },
       {
         id: 9,
         title: "Cotton Hoodie",
-        image: "https://picsum.photos/seed/product9/600/600",
+        image:
+          "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=600&q=80",
         description: "Soft cotton hoodie.",
         price: 54.99,
       },
       {
         id: 10,
         title: "Running Shoes",
-        image: "https://picsum.photos/seed/product10/600/600",
+        image:
+          "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80",
         description: "Lightweight running shoes.",
         price: 74.99,
       },
       {
         id: 11,
         title: "Canvas Tote Bag",
-        image: "https://picsum.photos/seed/product11/600/600",
+        image:
+          "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=600&q=80",
         description: "Reusable canvas tote bag.",
         price: 24.99,
       },
       {
         id: 12,
         title: "Classic Cotton Cap",
-        image: "https://picsum.photos/seed/product12/600/600",
+        image:
+          "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=600&q=80",
         description: "Simple cotton cap.",
         price: 19.99,
       },
