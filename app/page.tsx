@@ -1,9 +1,25 @@
 export default async function Home() {
-  const response = await fetch("https://fakestoreapi.com/products", {
-    cache: "no-store",
-  });
+  let products = [];
 
-  const products = await response.json();
+  try {
+    const response = await fetch("https://fakestoreapi.com/products", {
+      cache: "no-store",
+    });
+
+    if (!response.ok) {
+      throw new Error(`API request failed: ${response.status}`);
+    }
+
+    const contentType = response.headers.get("content-type");
+
+    if (!contentType?.includes("application/json")) {
+      throw new Error("API did not return JSON");
+    }
+
+    products = await response.json();
+  } catch (error) {
+    console.error("Failed to fetch products:", error);
+  }
   const schema = {
   "@context": "https://schema.org",
   "@type": "ItemList",
